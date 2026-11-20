@@ -1,0 +1,38 @@
+participant,block,quantity,value,units,rank,over
+A,seven clustering variables,log Fmax,-0.9622514457970563,"z within the cohort (n = 333, SD with ddof = 0)",48.0,333.0
+A,seven clustering variables,log T50,1.2635841216136283,"z within the cohort (n = 333, SD with ddof = 0)",299.0,333.0
+A,seven clustering variables,log AUC,-0.9700696112710722,"z within the cohort (n = 333, SD with ddof = 0)",32.0,333.0
+A,seven clustering variables,log SLOPEmax,-0.39221919934043475,"z within the cohort (n = 333, SD with ddof = 0)",104.0,333.0
+A,seven clustering variables,DAT putamen (lower side),1.8801379563986615,"z within the cohort (n = 333, SD with ddof = 0)",318.0,333.0
+A,seven clustering variables,DAT caudate (mean),2.28963903027741,"z within the cohort (n = 333, SD with ddof = 0)",326.0,333.0
+A,seven clustering variables,baseline age,-0.06815071742416325,"z within the cohort (n = 333, SD with ddof = 0)",149.0,333.0
+A,seven clustering variables,Mahalanobis distance from the centre,2.8710455378246564,multivariate SD,271.0,333.0
+A,five kinetic parameters at 150 h,log Fmax,-0.9622514457970605,"z within the cohort (n = 333, SD with ddof = 0)",48.0,333.0
+A,five kinetic parameters at 150 h,log TTT,1.8804450768616838,"z within the cohort (n = 333, SD with ddof = 0)",320.0,333.0
+A,five kinetic parameters at 150 h,log AUC,-0.9700696112711292,"z within the cohort (n = 333, SD with ddof = 0)",32.0,333.0
+A,five kinetic parameters at 150 h,log T50,1.2635841216135923,"z within the cohort (n = 333, SD with ddof = 0)",299.0,333.0
+A,five kinetic parameters at 150 h,log SLOPE,-0.3922191993404291,"z within the cohort (n = 333, SD with ddof = 0)",104.0,333.0
+A,follow-up (curated data cut),year of the last visit,2.0,years,30.0,333.0
+A,follow-up (curated data cut),visits with recorded year,2.0,visits,23.0,333.0
+A,assay file,"row 1: visit BL, protocol 150 h, outcome Positive",2022.0,year of the run,,
+A,assay file,"row 2: visit V06, protocol 24 h, outcome Inconclusive/Undetermined",2024.0,year of the run,,
+A,assay file,"row 3: visit V06, protocol 24 h, outcome Negative",2024.0,year of the run,,
+A,assay file,"row 4: visit BL, protocol 24 h, outcome Positive/Type2",2025.0,year of the run,,
+B,seven clustering variables,log Fmax,-5.102802322620041,"z within the cohort (n = 333, SD with ddof = 0)",3.0,333.0
+B,seven clustering variables,log T50,-0.12766144068688617,"z within the cohort (n = 333, SD with ddof = 0)",162.0,333.0
+B,seven clustering variables,log AUC,0.36333745033855774,"z within the cohort (n = 333, SD with ddof = 0)",206.0,333.0
+B,seven clustering variables,log SLOPEmax,-2.06242441468676,"z within the cohort (n = 333, SD with ddof = 0)",8.0,333.0
+B,seven clustering variables,DAT putamen (lower side),2.354913067857488,"z within the cohort (n = 333, SD with ddof = 0)",327.0,333.0
+B,seven clustering variables,DAT caudate (mean),-0.49401561623883844,"z within the cohort (n = 333, SD with ddof = 0)",102.0,333.0
+B,seven clustering variables,baseline age,1.5040770573067657,"z within the cohort (n = 333, SD with ddof = 0)",319.0,333.0
+B,seven clustering variables,Mahalanobis distance from the centre,6.684344926930406,multivariate SD,329.0,333.0
+B,five kinetic parameters at 150 h,log Fmax,-5.102802322620045,"z within the cohort (n = 333, SD with ddof = 0)",3.0,333.0
+B,five kinetic parameters at 150 h,log TTT,0.23786312599867412,"z within the cohort (n = 333, SD with ddof = 0)",221.0,333.0
+B,five kinetic parameters at 150 h,log AUC,0.3633374503384998,"z within the cohort (n = 333, SD with ddof = 0)",206.0,333.0
+B,five kinetic parameters at 150 h,log T50,-0.12766144068692198,"z within the cohort (n = 333, SD with ddof = 0)",162.0,333.0
+B,five kinetic parameters at 150 h,log SLOPE,-2.0624244146867543,"z within the cohort (n = 333, SD with ddof = 0)",8.0,333.0
+B,follow-up (curated data cut),year of the last visit,0.0,years,13.0,333.0
+B,follow-up (curated data cut),visits with recorded year,1.0,visits,13.0,333.0
+B,assay file,"row 1: visit BL, protocol 150 h, outcome Positive",2022.0,year of the run,,
+B,assay file,"row 2: visit V02, protocol 24 h, outcome Positive/Type2",2024.0,year of the run,,
+B,assay file,"row 3: visit BL, protocol 24 h, outcome Positive/Type2",2025.0,year of the run,,

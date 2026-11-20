@@ -1,0 +1,5 @@
+dataset,description,n,silhouette_k2,ARI_algorithms_k2
+V0,variables not modified (595),595,0.26259602675579363,0.14073170701766766
+V0r,"unmodified, only the 592 with stage",592,0.2653693390693644,0.34779868937979924
+S,stage alone removed (592),592,0.27405668318146814,0.3354931863080257
+V1,duration and stage removed (592),592,0.274043520902611,0.33117557475104403

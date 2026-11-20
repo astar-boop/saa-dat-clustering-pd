@@ -1,0 +1,4 @@
+ARI,same_group,expected_by_chance,p_exact,p_minimum_reachable,same_group_minimum_by_p05,rejection_below_the_chance,analysis,algorithm,n,groups_150h,groups_24h,without_power
+0.05379652542914524,144,126.06777082630859,0.006095422598528227,4.636984058510938e-58,139,0.02699347981114905,"7. kinetic parameters only, mean of the wells at 150 h",kmeans,229,149/80,152/77,False
+0.041171463579348776,145,134.0567783401751,0.023802987548397277,9.224344529422206e-15,145,0.023802987548397277,"7. kinetic parameters only, mean of the wells at 150 h",ward,229,199/30,88/141,False
+0.10167744207739035,182,174.29694323144105,0.034530506559101524,3.301776029010182e-24,182,0.034530506559101524,"7. kinetic parameters only, mean of the wells at 150 h",gmm,229,204/25,191/38,False

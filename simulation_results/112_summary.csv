@@ -1,0 +1,67 @@
+block,quantity,value_branch_entire,value_branch_without_i_two,units
+population,participants,333.0,331.0,participants
+population,participants without those shared with the 24 h cohort,288.0,286.0,participants
+typing at 24 h,typed at baseline,47.0,45.0,participants
+typing at 24 h,typed at any visit,332.0,330.0,participants
+typing at 24 h,never typed,1.0,1.0,participants
+typing at 24 h,with at least one Type2 at any visit,4.0,2.0,participants
+(a) Table S5,Hopkins: observed,0.7963997782740476,0.7970796551908224,value of the statistic
+(a) Table S5,Hopkins: Monte Carlo p,0.016611295681063124,0.016611295681063124,"uncorrected one-sided p, B = 300"
+(a) Table S5,Silhouette (k = 2): observed,0.22953079882289423,0.23025094162038265,value of the statistic
+(a) Table S5,Silhouette (k = 2): Monte Carlo p,0.1893687707641196,0.12292358803986711,"uncorrected one-sided p, B = 300"
+(a) Table S5,Multimodal projections (of 200): observed,0.0,0.0,value of the statistic
+(a) Table S5,Multimodal projections (of 200): Monte Carlo p,1.0,1.0,"uncorrected one-sided p, B = 300"
+(a) Table S5,Minimum dip (Bonferroni): observed,1.0,1.0,value of the statistic
+(a) Table S5,Minimum dip (Bonferroni): Monte Carlo p,1.0,1.0,"uncorrected one-sided p, B = 300"
+(a) Table S5,Prediction strength (k = 2): observed,0.6327788048896938,0.6185869884184205,value of the statistic
+(a) Table S5,Prediction strength (k = 2): Monte Carlo p,0.33222591362126247,0.3853820598006645,"uncorrected one-sided p, B = 300"
+(a) Table S5,Jaccard (k = 2): observed,0.81647085627037,0.8234757385142943,value of the statistic
+(a) Table S5,Jaccard (k = 2): Monte Carlo p,0.2823920265780731,0.2159468438538206,"uncorrected one-sided p, B = 300"
+(a) Table S5,ARI between algorithms (k = 2): observed,0.1353145947295621,0.14888589922495796,value of the statistic
+(a) Table S5,ARI between algorithms (k = 2): Monte Carlo p,0.38870431893687707,0.34219269102990035,"uncorrected one-sided p, B = 300"
+(a) designated estimates,k chosen by the gap,1.0,1.0,number of clusters
+(d) without the shared participants (script 66),Hopkins: observed,0.7946906210185622,0.7942667940772686,value of the statistic
+(d) without the shared participants (script 66),Hopkins: Monte Carlo p,0.009950248756218905,0.01990049751243781,"uncorrected one-sided p, B = 200"
+(d) without the shared participants (script 66),Silhouette (k = 2): observed,0.22448052517564168,0.23016536589939857,value of the statistic
+(d) without the shared participants (script 66),Silhouette (k = 2): Monte Carlo p,0.22388059701492538,0.13930348258706468,"uncorrected one-sided p, B = 200"
+(d) without the shared participants (script 66),Multimodal projections (of 200): observed,1.0,1.0,value of the statistic
+(d) without the shared participants (script 66),Multimodal projections (of 200): Monte Carlo p,0.06467661691542288,0.07462686567164178,"uncorrected one-sided p, B = 200"
+(d) without the shared participants (script 66),Minimum dip (Bonferroni): observed,1.0,1.0,value of the statistic
+(d) without the shared participants (script 66),Minimum dip (Bonferroni): Monte Carlo p,1.0,1.0,"uncorrected one-sided p, B = 200"
+(d) without the shared participants (script 66),Prediction strength (k = 2): observed,0.6545680818181324,0.6493430590465621,value of the statistic
+(d) without the shared participants (script 66),Prediction strength (k = 2): Monte Carlo p,0.15920398009950248,0.17412935323383086,"uncorrected one-sided p, B = 200"
+(d) without the shared participants (script 66),Jaccard (k = 2): observed,0.8131118342525843,0.784565922611127,value of the statistic
+(d) without the shared participants (script 66),Jaccard (k = 2): Monte Carlo p,0.22885572139303484,0.34328358208955223,"uncorrected one-sided p, B = 200"
+(d) without the shared participants (script 66),ARI between algorithms (k = 2): observed,0.13367748314842054,0.07413001185682075,value of the statistic
+(d) without the shared participants (script 66),ARI between algorithms (k = 2): Monte Carlo p,0.4925373134328358,0.8756218905472637,"uncorrected one-sided p, B = 200"
+(b) 35 kinetic parameter x time tests,nominally significant tests,0.0,0.0,"tests out of 35, uncorrected p < 0.05"
+(b) 35 kinetic parameter x time tests,tests that pass BH,0.0,0.0,"tests out of 35, BH p < 0.05"
+(b) 35 kinetic parameter x time tests,minimum BH p,0.3974645844415463,0.3764369767681798,BH p
+(b) 35 kinetic parameter x time tests,maximum shift of the coefficient,,0.37699057997960533,SE of the arm at 333
+(b) 35 kinetic parameter x time tests,maximum shift at fixed scale,,0.3751511790895657,SE of the arm at 333
+(b) 35 kinetic parameter x time tests,tests that change nominal status,,0.0,test
+(b) 35 kinetic parameter x time tests,tests that change status after BH,,0.0,test
+(b) 35 kinetic parameter x time tests,tests that change sign,,0.0,test
+(b) 35 kinetic parameter x time tests,coefficients shifted by at least 0.1 SE (attributed),,10.0,test
+(b) 35 kinetic parameter x time tests,models accepted by the strict criterion,35.0,35.0,models on 35
+(c) 12 non-motor outcomes,nominally significant tests,2.0,2.0,"tests out of 12, uncorrected p < 0.05"
+(c) 12 non-motor outcomes,tests that pass BH,0.0,0.0,"tests out of 12, BH p < 0.05"
+(c) 12 non-motor outcomes,minimum BH p,0.16992142393168588,0.16657179256008578,BH p
+(c) 12 non-motor outcomes,maximum shift of the coefficient,,0.057417326323591256,SE of the arm at 333
+(c) 12 non-motor outcomes,maximum shift at fixed scale,,0.056326210215731205,SE of the arm at 333
+(c) 12 non-motor outcomes,tests that change nominal status,,0.0,test
+(c) 12 non-motor outcomes,tests that change status after BH,,0.0,test
+(c) 12 non-motor outcomes,tests that change sign,,0.0,test
+(c) 12 non-motor outcomes,coefficients shifted by at least 0.1 SE (attributed),,0.0,test
+(c) 12 non-motor outcomes,models accepted by the strict criterion,12.0,12.0,models on 12
+"(e) CSF, 35 pairs","pairs with BH p < 0.05, level: raw",20.0,20.0,pairs out of 35
+"(e) CSF, 35 pairs","pairs with BH p < 0.05, level: age and sex",22.0,22.0,pairs out of 35
+"(e) CSF, 35 pairs","pairs with BH p < 0.05, level: age, sex and common component",0.0,0.0,pairs out of 35
+"(e) CSF, 35 pairs","pairs with BH p < 0.05, level: age, sex and leave-one-analyte-out component",0.0,0.0,pairs out of 35
+(e) CSF,variance explained by the PC1 of the analytes,0.6772452852357995,0.6779417168509744,fraction
+(e) CSF,participants with the seven analytes,245.0,243.0,participants
+(a) battery at k = 2 against the copula null,"something changes between the two arms (statuses, acceptance of the models, shifts beyond threshold)",,0.0,"0 = no, 1 = yes"
+(b) 35 kinetic parameter x time tests,"something changes between the two arms (statuses, acceptance of the models, shifts beyond threshold)",,0.0,"0 = no, 1 = yes"
+(c) 12 non-motor outcomes,"something changes between the two arms (statuses, acceptance of the models, shifts beyond threshold)",,0.0,"0 = no, 1 = yes"
+(d) battery without the shared participants,"something changes between the two arms (statuses, acceptance of the models, shifts beyond threshold)",,0.0,"0 = no, 1 = yes"
+(e) CSF analyses,"something changes between the two arms (statuses, acceptance of the models, shifts beyond threshold)",,0.0,"0 = no, 1 = yes"

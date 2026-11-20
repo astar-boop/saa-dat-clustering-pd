@@ -1,0 +1,3 @@
+dataset,replicates,kmeans,ward,gmm
+median of the wells at 150 h (main analysis),300,0.4866666666666667,0.33666666666666667,0.3466666666666667
+mean of the wells at 150 h,300,0.6366666666666667,0.39,0.41333333333333333

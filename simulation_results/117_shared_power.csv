@@ -1,0 +1,7 @@
+dataset,algorithm,margins,rho_0.3,rho_0.5,rho_0.7,rho_0.9
+a. seven variables,kmeans,16/29 e 11/34,0.2535,0.57375,0.898,0.99825
+a. seven variables,ward,22/23 e 13/32,0.20925,0.51025,0.87325,0.999
+a. seven variables,gmm,17/28 e 5/40,0.054,0.17475,0.473,0.92025
+b. kinetic parameters only,kmeans,15/30 e 9/36,0.20725,0.52,0.85725,0.9975
+b. kinetic parameters only,ward,16/29 e 9/36,0.2725,0.5865,0.895,0.999
+b. kinetic parameters only,gmm,18/27 e 3/42,0.0,0.0,0.0,0.0

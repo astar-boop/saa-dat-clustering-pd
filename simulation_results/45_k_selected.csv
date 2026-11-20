@@ -1,0 +1,3 @@
+cohort,k_1SE_observed,k_1SE_null_gaussian,null_copula_k1_%,null_copula_distribution_k,B
+24h (n=595),1,1,100.0,k=1: 500,500
+150h (n=333),1,1,100.0,k=1: 300,300

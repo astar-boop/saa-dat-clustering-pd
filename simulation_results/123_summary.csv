@@ -1,0 +1,33 @@
+portion,cohort,k,item,value,lo,hi,n,text
+1,24h,2,share p < 0.05 without groups,0.002,0.0009594813177485524,0.0036749854808604205,5000.0,
+1,24h,2,designated calibrated p,0.0022335532893421315,0.0013556788642271546,0.0032975904819036177,5000.0,
+1,24h,2,designated calibrated p x 18,0.04020395920815837,0.024402219556088782,0.05935662867426512,5000.0,
+1,24h,2,p calibrated on the z,0.0009998000399920016,0.0002180147242495869,0.0020470395629212336,5000.0,
+1,24h,2,p calibrated on the p at all realisations,0.0013997200559888023,,,5000.0,
+1,24h,2,"p of the real data, all realisations",0.036430330134164114,,,19900.0,
+1,24h,2,fixed reading,,,,,at the threshold
+1,150h,3,share p < 0.05 without groups,0.0044,0.0027594486950026026,0.006654117576395448,5000.0,
+1,150h,3,designated calibrated p,0.0015736852629474104,0.0008658268346330735,0.0023795740851829633,5000.0,
+1,150h,3,designated calibrated p x 18,0.028326334733053387,0.015584883023395323,0.04283233353329334,5000.0,
+1,150h,3,p calibrated on the z,0.0009998000399920016,0.0002180147242495869,0.0020470395629212336,5000.0,
+1,150h,3,p calibrated on the p at all realisations,0.0005998800239952009,,,5000.0,
+1,150h,3,"p of the real data, all realisations",0.019295512788302095,,,19900.0,
+1,150h,3,fixed reading,,,,,exceeds the reference even after the correction
+2,24h,2,"positive control, 2 SD: dip",0.06,,,200.0,
+2,24h,2,"positive control, 2 SD: silhouette",1.0,,,200.0,
+2,24h,2,"positive control, 3 SD: dip",0.5,,,200.0,
+2,24h,2,"positive control, 3 SD: silhouette",1.0,,,200.0,
+2,24h,2,"positive control, 4 SD: dip",0.995,,,200.0,
+2,24h,2,"positive control, 4 SD: silhouette",1.0,,,200.0,
+2,24h,2,fixed reading: shape,,,,,the departure is compatible with the shape of the distribution of the kinetic parameters (the bimodality test is not informative)
+2,24h,2,fixed reading: tail of weak reactors,,,,,si
+2,150h,3,"positive control, 2 SD: dip",0.01,,,200.0,
+2,150h,3,"positive control, 2 SD: silhouette",0.0,,,200.0,
+2,150h,3,"positive control, 3 SD: dip",0.07,,,200.0,
+2,150h,3,"positive control, 3 SD: silhouette",0.145,,,200.0,
+2,150h,3,"positive control, 4 SD: dip",0.665,,,200.0,
+2,150h,3,"positive control, 4 SD: silhouette",0.725,,,200.0,
+2,150h,3,fixed reading: shape,,,,,the departure is compatible with the shape of the distribution of the kinetic parameters (the bimodality test is not informative)
+2,150h,3,fixed reading: tail of weak reactors,,,,,no
+2,24h,2,"weak reactors: distinct dates, p",0.6784321567843216,,,24.0,
+2,24h,2,"weak reactors: maximum in one date, p",0.47025297470252975,,,24.0,

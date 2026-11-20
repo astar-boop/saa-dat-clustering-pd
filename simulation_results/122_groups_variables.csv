@@ -1,0 +1,67 @@
+analysis,version,algorithm,variable,difference_in_SD
+1. kinetic parameters only,150h,kmeans,log Fmax,-1.3180864680308777
+1. kinetic parameters only,150h,kmeans,log T50,1.2245335717890393
+1. kinetic parameters only,150h,kmeans,log AUC,-1.1572471980198187
+1. kinetic parameters only,150h,kmeans,log SLOPE,-1.1407478756396032
+1. kinetic parameters only,24h,kmeans,log Fmax,-1.599083954713408
+1. kinetic parameters only,24h,kmeans,log TTT,1.412234527655961
+1. kinetic parameters only,24h,kmeans,log AUC,-1.5852292093555067
+1. kinetic parameters only,24h,kmeans,log SLOPEMax,-1.648918083446329
+1. kinetic parameters only,150h,ward,log Fmax,-1.538616084368965
+1. kinetic parameters only,150h,ward,log T50,0.19942933921102352
+1. kinetic parameters only,150h,ward,log AUC,-0.1730703377952671
+1. kinetic parameters only,150h,ward,log SLOPE,-1.8584269495830956
+1. kinetic parameters only,24h,ward,log Fmax,1.587439879723474
+1. kinetic parameters only,24h,ward,log TTT,-1.2861320056162626
+1. kinetic parameters only,24h,ward,log AUC,1.5058015294832727
+1. kinetic parameters only,24h,ward,log SLOPEMax,1.5901495823648246
+1. kinetic parameters only,150h,gmm,log Fmax,1.4987039417187868
+1. kinetic parameters only,150h,gmm,log T50,-0.8124730555897194
+1. kinetic parameters only,150h,gmm,log AUC,0.8435721858980757
+1. kinetic parameters only,150h,gmm,log SLOPE,1.5043345555895389
+1. kinetic parameters only,24h,gmm,log Fmax,-1.299268713729773
+1. kinetic parameters only,24h,gmm,log TTT,1.9365924304318987
+1. kinetic parameters only,24h,gmm,log AUC,-1.8223265271068607
+1. kinetic parameters only,24h,gmm,log SLOPEMax,-1.5902881856084619
+3. seven variables,150h,kmeans,log Fmax,-1.410709662942319
+3. seven variables,150h,kmeans,log T50,0.9890199370380612
+3. seven variables,150h,kmeans,log AUC,-0.9972089892783227
+3. seven variables,150h,kmeans,log SLOPE,-1.3453641899736875
+3. seven variables,150h,kmeans,lower putamen,0.44835971988701345
+3. seven variables,150h,kmeans,mean caudate,0.47492953167809404
+3. seven variables,150h,kmeans,age,-0.5104924009141203
+3. seven variables,24h,kmeans,log Fmax,1.618235139316638
+3. seven variables,24h,kmeans,log TTT,-1.4644607240830685
+3. seven variables,24h,kmeans,log AUC,1.6311034417015402
+3. seven variables,24h,kmeans,log SLOPEMax,1.6731635049775948
+3. seven variables,24h,kmeans,lower putamen,0.1305596063596275
+3. seven variables,24h,kmeans,mean caudate,0.04043887190854467
+3. seven variables,24h,kmeans,age,-0.3156523020164449
+3. seven variables,150h,ward,log Fmax,1.3464713871680531
+3. seven variables,150h,ward,log T50,-1.02399707909509
+3. seven variables,150h,ward,log AUC,1.0375239392095303
+3. seven variables,150h,ward,log SLOPE,1.2865246612908656
+3. seven variables,150h,ward,lower putamen,-0.3382982733551756
+3. seven variables,150h,ward,mean caudate,-0.24444401936328275
+3. seven variables,150h,ward,age,0.3777439773753757
+3. seven variables,24h,ward,log Fmax,-1.4255936856472189
+3. seven variables,24h,ward,log TTT,1.391839455459913
+3. seven variables,24h,ward,log AUC,-1.4570602359588354
+3. seven variables,24h,ward,log SLOPEMax,-1.4418546991314316
+3. seven variables,24h,ward,lower putamen,-0.07640481542369737
+3. seven variables,24h,ward,mean caudate,0.34965210009412806
+3. seven variables,24h,ward,age,-0.2539613869148214
+3. seven variables,150h,gmm,log Fmax,1.4951181407326208
+3. seven variables,150h,gmm,log T50,-0.8572754558224474
+3. seven variables,150h,gmm,log AUC,0.8846789842691218
+3. seven variables,150h,gmm,log SLOPE,1.491234832657486
+3. seven variables,150h,gmm,lower putamen,-0.21592394887414568
+3. seven variables,150h,gmm,mean caudate,-0.12076136932362731
+3. seven variables,150h,gmm,age,0.3513280380650967
+3. seven variables,24h,gmm,log Fmax,-1.3373160282398568
+3. seven variables,24h,gmm,log TTT,1.8909551354782803
+3. seven variables,24h,gmm,log AUC,-1.7841767327937517
+3. seven variables,24h,gmm,log SLOPEMax,-1.5932057748885111
+3. seven variables,24h,gmm,lower putamen,-0.17086689096404523
+3. seven variables,24h,gmm,mean caudate,-0.0402211236030017
+3. seven variables,24h,gmm,age,0.16557441251548055

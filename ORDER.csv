@@ -1,0 +1,87 @@
+step,script,after,produces
+1,01_build_dataset,,
+2,02_features_and_tendency,01_build_dataset,Table S3
+3,03_clustering,02_features_and_tendency,§1.4-1.5
+4,04_characterization,02_features_and_tendency,§1.7
+5,05_figures,02_features_and_tendency 03_clustering 04_characterization,Figure 1 | Figure 3 | Figure 4 | Figure S2
+6,06_sensitivity,01_build_dataset 02_features_and_tendency,§1.6
+7,07_figure_extended,02_features_and_tendency,Figure 6
+8,08_replication_150h,02_features_and_tendency,Table S4 | §1.8
+9,09_followup_150h,08_replication_150h,§1.8
+10,10_figure_150h,08_replication_150h,Figure S3
+11,11_longitudinal,02_features_and_tendency 08_replication_150h,§1.12
+12,12_csf_concentration,02_features_and_tendency 08_replication_150h,Table S12
+13,13_moca_signal,08_replication_150h,
+14,14_figure_longitudinal,08_replication_150h 12_csf_concentration 13_moca_signal,Figure 8
+15,15_nonmotor_trajectories,08_replication_150h,Table S9
+16,16_figure_trajectories,08_replication_150h 15_nonmotor_trajectories,Figure S4-S5
+17,20_albumin,02_features_and_tendency 08_replication_150h,Table S13
+18,21_review_P1,02_features_and_tendency 08_replication_150h 15_nonmotor_trajectories,Figure S6 | Table S11
+19,22_injection_power,02_features_and_tendency 08_replication_150h,Table S7
+20,23_review_P17_P19,08_replication_150h 20_albumin,
+21,24_multiverse,08_replication_150h,Figure S6
+22,25_monte_carlo_nulls,02_features_and_tendency 08_replication_150h,Table S5
+23,28_flow_figure,02_features_and_tendency 08_replication_150h,Figure S1
+24,29_parameters_figure,,Figure S7
+25,32_jaccard_specificity,02_features_and_tendency 08_replication_150h,§1.4-1.5
+26,34_delta_zero,02_features_and_tendency 08_replication_150h,Table S7
+27,36_loo_component,08_replication_150h,Table S12
+28,37_power_uncertainty,02_features_and_tendency 08_replication_150h 22_injection_power,Table S7
+29,41_unified_nulls,03_clustering 08_replication_150h 25_monte_carlo_nulls,Table S5
+30,26_review_figures,08_replication_150h 21_review_P1 22_injection_power 24_multiverse 34_delta_zero 41_unified_nulls,Figure 5 | Figure 7 | Figure S6
+31,40_tendency_figure,41_unified_nulls,Figure 2
+32,45_diagnostic_curves,02_features_and_tendency 03_clustering 08_replication_150h,§1.4-1.5
+33,57_ch_db_curves,02_features_and_tendency 03_clustering 08_replication_150h,§1.4-1.5
+34,66_external_review,02_features_and_tendency 08_replication_150h 21_review_P1,Table S1 | §1.8
+35,69_run_variance_components,02_features_and_tendency 08_replication_150h,Table S6
+36,70_baseline_table,01_build_dataset 02_features_and_tendency 08_replication_150h,Table S2
+37,71_centre_effects,02_features_and_tendency 08_replication_150h,Table S6
+38,72_longitudinal_refit,02_features_and_tendency 08_replication_150h 11_longitudinal,§1.12 | Table S9
+39,75_diagnostic_family,45_diagnostic_curves 57_ch_db_curves,§1.4-1.5 | Table S14
+40,76_denominators,01_build_dataset 08_replication_150h 21_review_P1,Table S1 | Table S11
+41,77_fmax_dat_batch,02_features_and_tendency,§1.12
+42,78_longitudinal_sensitivity,08_replication_150h,Table S10
+43,79_pac_null,02_features_and_tendency 03_clustering 08_replication_150h,§1.4-1.5
+44,80_convergence,02_features_and_tendency 08_replication_150h 72_longitudinal_refit,§1.12
+45,81_median_reliability_v2,,Table S11
+46,83_spline_reconciled,08_replication_150h,Table S10
+47,84_gradients,02_features_and_tendency 08_replication_150h 77_fmax_dat_batch,Table S8
+48,85_run_centre,02_features_and_tendency 08_replication_150h 77_fmax_dat_batch,Table S6
+49,87_amplitude_ladder,02_features_and_tendency 72_longitudinal_refit,Table S8
+50,88_dat_correlation,02_features_and_tendency,§1.12
+51,88_diagnostics_63,02_features_and_tendency 08_replication_150h 84_gradients 87_amplitude_ladder,§1.12
+52,88_ipcw_and_denominators,08_replication_150h,Table S10
+53,88_ladder_df,08_replication_150h,Table S10
+54,89_reliability_by_sample,21_review_P1,Table S11
+55,91_table6_strict_criterion,08_replication_150h 15_nonmotor_trajectories,Table S9
+56,92_ladder_diagnostics,02_features_and_tendency 87_amplitude_ladder,Table S8
+57,93_table8_rules,08_replication_150h 78_longitudinal_sensitivity 84_gradients 87_amplitude_ladder 88_diagnostics_63,§1.12
+58,95_strict_likelihoods,02_features_and_tendency 08_replication_150h 77_fmax_dat_batch 88_ladder_df,§1.12
+59,99_albumin_table,20_albumin 23_review_P17_P19,Table S13
+60,100_albumin_primary_cohort,02_features_and_tendency 20_albumin,Table S13
+61,103_dat_paragraph_numbers,72_longitudinal_refit 77_fmax_dat_batch,§1.12
+62,104_dat_variants_comparison,02_features_and_tendency 03_clustering 08_replication_150h,§1.6
+63,105_caudate_optimiser_sensitivity,02_features_and_tendency,§1.12
+64,106_protocol_agreement,02_features_and_tendency 08_replication_150h,Table S16
+65,107_nonmotor_ledd_duration,02_features_and_tendency 08_replication_150h 11_longitudinal 13_moca_signal 15_nonmotor_trajectories 72_longitudinal_refit 88_diagnostics_63 91_table6_strict_criterion,Table S9b
+66,108_availability_and_timing,02_features_and_tendency 08_replication_150h 12_csf_concentration 15_nonmotor_trajectories 20_albumin 23_review_P17_P19 36_loo_component 70_baseline_table 72_longitudinal_refit 78_longitudinal_sensitivity 84_gradients 100_albumin_primary_cohort,Table 1 | Table S20-S21 | Table S15
+67,109_coughlin_reconciliation,01_build_dataset 02_features_and_tendency 08_replication_150h,Table S16
+68,110_dat_laterality,02_features_and_tendency 08_replication_150h 25_monte_carlo_nulls 87_amplitude_ladder 88_diagnostics_63,Table S17
+69,111_lateralised_motor,02_features_and_tendency 08_replication_150h 88_diagnostics_63,Table S18
+70,112_replication_without_type2,02_features_and_tendency 08_replication_150h 12_csf_concentration 20_albumin 25_monte_carlo_nulls 36_loo_component 41_unified_nulls 66_external_review 88_diagnostics_63 91_table6_strict_criterion 109_coughlin_reconciliation,Table S19
+71,115_negatives_kinetics,06_sensitivity,Results 2.4
+72,116_assay_categories,02_features_and_tendency 06_sensitivity 08_replication_150h,§1.6 | Table S23
+73,117_shared_partitions,02_features_and_tendency 08_replication_150h 25_monte_carlo_nulls 45_diagnostic_curves,Table S22
+74,118_duration_stage,02_features_and_tendency 08_replication_150h 25_monte_carlo_nulls 45_diagnostic_curves,Table S24-S25 | Table S26
+75,119_shared_alone,02_features_and_tendency 08_replication_150h 118_duration_stage,§1.8
+76,120_duration_stage_checks,02_features_and_tendency 118_duration_stage,Table S26
+77,121_rule_calibration,02_features_and_tendency 08_replication_150h 118_duration_stage,§1.22
+78,122_partitions_one_year,02_features_and_tendency 08_replication_150h 106_protocol_agreement 117_shared_partitions,Table S22
+79,123_silhouette_departure_origin,02_features_and_tendency 08_replication_150h 45_diagnostic_curves 118_duration_stage 120_duration_stage_checks 121_rule_calibration,§1.22
+80,124_run_and_models_without_groups,02_features_and_tendency 08_replication_150h 45_diagnostic_curves 69_run_variance_components 118_duration_stage 121_rule_calibration 123_silhouette_departure_origin,§1.22
+81,125_rule_power,02_features_and_tendency 08_replication_150h 118_duration_stage,Table S29
+82,126_assay_runs,02_features_and_tendency 08_replication_150h 69_run_variance_components 118_duration_stage 123_silhouette_departure_origin,Table S27-S28 | Figure S8
+83,127_reviewer3_letter_numbers,02_features_and_tendency 08_replication_150h 69_run_variance_components 71_centre_effects 85_run_centre 108_availability_and_timing 118_duration_stage 125_rule_power 126_assay_runs,Table S6 | Table S29 | Table S27-S28
+84,figure/fig_S1,,Figure S1
+85,figure/fig_S6,,Figure S6
+86,figure/fig_S8,,Figure S8

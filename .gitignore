@@ -1,0 +1,19 @@
+# PPMI data and everything computed from them must never be committed
+data/
+outputs/
+figures/
+logs/
+dat_variants/
+*.parquet
+*.xlsx
+*.csv
+!ORDER.csv
+*.npz
+*.npy
+*.pkl
+# aggregate simulation results are tracked: no participant-level data
+!simulation_results/
+!simulation_results/**
+__pycache__/
+*.pyc
+.DS_Store
